@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Gallery 1",
+    "folder": "gallery1",
+    "images": [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ]
+  },
+  {
+    "name": "Gallery 2",
+    "folder": "gallery2",
+    "images": [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ]
+  }
+]

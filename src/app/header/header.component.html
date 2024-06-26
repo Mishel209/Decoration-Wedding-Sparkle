@@ -1,0 +1,35 @@
+<header>
+
+<div class="container">
+    <div class="logo">
+     <a [routerLink]="['/home']" ><img src="assets/ws logo3.png" alt="Logo"></a>
+    </div>
+    <div>
+      <div class="navbar">
+        <ul id="rute">
+          <li><a [routerLink]="['/home']">{{"POČETNA" | translate }}</a></li>
+          <li><a [routerLink]="['/usluge']">{{"USLUGE" | translate }}</a></li>
+        <div class="dropdown">
+          <button class="dropbtn"><a [routerLink]="['/galerija']">{{"GALERIJA" | translate }}</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <li class="dropdown-content">
+               <a [routerLink]="['/mladenacki-sto']">{{"Mladenački sto"|translate}}</a>
+               <a [routerLink]="['/cvjetni']">{{"Cvjetni aranžmani"|translate}}</a>
+               <a [routerLink]="['/cvjetici']">{{"Cvjetići/kićanke"|translate}}</a>
+               <a [routerLink]="['/kutija']">{{"Kutija za novac"|translate}}</a>
+               <a [routerLink]="['/pozadina']">{{"Pozadina za slikanje"|translate}}</a>
+               <a [routerLink]="['/efekti']">{{"Specijalni efekti"|translate}}</a>
+               <a [routerLink]="['/tabla']">{{"Tabla dobrodošlice"|translate}}</a>
+               <a [routerLink]="['/zahvalnice']">{{"Zahvalnice i prskalice"|translate}}</a>
+            </li>
+        </div>
+          <li><a [routerLink]="['/kontakt']">{{"Kontakt" | translate }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+
